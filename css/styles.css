@@ -187,10 +187,8 @@ margin-left: 50px;
 .feature-frame{
     background-color: var(--team-bgc);
     display: flex;
-    padding-top: 25px;
-    padding-right: 100px;
-    padding-bottom: 25px;
-    padding-left: 100px;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 30px;
     border-radius: 4px;
 }
@@ -200,7 +198,9 @@ margin-left: 50px;
     max-width: 270px;
 }
 .feature-item:last-child {margin-right: 0;}
-
+.feature-icon{
+    height: 120px;
+}
 .small-title {
     font-weight: 700;
     font-size: 14px;
@@ -335,10 +335,10 @@ margin-left: 50px;
 }
 .clients-link{
     display: flex;
-    padding-top: 16px;
-    padding-right: 32px;
-    padding-bottom: 16px;
-    padding-left: 32px;
+    width: 170px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
     border:1px solid #AFB1B8;
     border-radius: 4px;
     fill: var(--icon);
